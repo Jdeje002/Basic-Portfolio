@@ -6,21 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>John De Jesus Contact</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    
 </head>
-<body>
-        <div>
+<body> 
+     <div class="topScreen">
                 <header>
-                    <h1>John De Jesus</h1>
+                    <h1 class="indexHead"> John De Jesus</h1>
                     <nav>
                         <ul style="list-style-type: none;">
-                                <li><a href="index.html">About</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li class="about"><a href="index.html">About</a></li>
+                                <li class="portfolio"><a href="portfolio.html">Portfolio</a></li>
+                                <li class="contact"><a href="contact.html">Contact</a></li>
                         </ul>
                     </nav>
                 </header>
-            </div>
-            
+        </div>
+    <div class="mainBody">
+        <h3>Contact</h3>
+        <section>
+            <form action="/action_page.php">
+                Name : <input type="text" name="Name" value="Name"><br>
+                E-mail: <input type="text" name="Email" value="E-Mail"><br>
+                Message:<input type="text" name="message" value="Type here." id="message"><br>
+                <input type="submit" value="Submit">
+                </form>
+        </section>
+    </div>       
+    <div>
+            <aside class="contactMe">
+                    <h2>Connect Me</h2>
+                     <ul style="list-style-type: none;">
+                         <li>
+                            <a href="https://www.facebook.com/jdeje002">Facebook<img src="./assets/images/facebook-512.png" alt="Facebook" width="32" height="32" >
+                             </a>
+                         </li>
+                         <li>
+                             <a href="https://github.com/Jdeje002">Github<img src="./assets/images/github.png" alt="Github" width="32" height="32">
+                                </a>
+                         </li>
+                         <li>
+                                <a href="mailto:jdeje002@gmail.com.com?Subject=Hello" target="_top"> My Email
+                             <img src="./assets/images/mail.png" alt="Email" width="32" height="32">
+                             </a>
+                             
+                         </li>
+                    </ul>
+                </aside>
+        </div>
+<div>
+        <Footer class="bottomScreen"> &copy;Copyright John De Jesus</Footer>
+</div>
 </body>
 </html>
