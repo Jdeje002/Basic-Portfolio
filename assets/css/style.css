@@ -25,24 +25,23 @@ body{
     margin-left: 150px;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: left;
 }
 .nav1{
+    float: right;
     margin-right: 150px;
-    margin-bottom: 150px;
 }
 .about{
     background: white;
-    float: right;
+    float: left;
     border: 2px color gray;
     padding: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    
-    
 
 }
 .portfolio{
     background: white;
-    float: right;
+    float: left;
     border: 2px color gray;
     padding: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -50,7 +49,7 @@ body{
 }
 .contact{
     background: white;
-    float: right;
+    float: left;
     border: 2px color gray;
     padding: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -72,7 +71,7 @@ body{
     background: white;
     border: 2px color gray;
     padding: 10px;
-    padding-top: 10px;
+    margin-top: 10px;
     margin-right: 150px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     float: right;
@@ -84,24 +83,37 @@ body{
     background: white;
     padding: 10px;
     margin: 0 auto;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    height: 10px;
     text-align: center;
 }
 #message{
-    width: 600px;
-    height: 500px;
+    width: 580px;
+    height: 300px;
 
 }
-#portfolioPic{
+.portfolioPic{
     background: white;
     border: 2px solid gray;
     padding: 10px;
     margin: 10px;
     float: left;
 }
+.head:after{
+    clear: both;
+    display: block;
+    content: ""; 
+    
+}
+.picTitle {
+    height: 50Px;
+    border: 2px solid gray;
+    background: white;
+    padding: 10px;
+    margin: 0 auto;
+    position: fixed;
 
+}
