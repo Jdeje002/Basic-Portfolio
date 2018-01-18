@@ -109,11 +109,11 @@ body{
     
 }
 .picTitle {
-    height: 50Px;
     border: 2px solid gray;
-    background: white;
+    background: green;
     padding: 10px;
     margin: 0 auto;
     position: fixed;
+    width: 250;
 
 }
